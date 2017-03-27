@@ -2,3 +2,8 @@
 /logs/*
 !/logs/README.md
 *.log
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
